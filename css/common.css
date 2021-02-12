@@ -1,0 +1,95 @@
+/* Selector */
+html {
+    font-size: 16px;
+    line-height: 1.75;
+}
+body {
+    font-size: inherit;
+    line-height: inherit;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #111;
+    background-color: #fff;
+}
+a {
+    color: #111;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+
+/* Layout */
+.mt-18 {
+    margin-top: 18px;
+}
+.mrl-4 {
+    margin: 0 4px;
+}
+.mrl-8 {
+    margin: 0 8px;
+}
+.mb-8 {
+    margin-bottom: 8px;
+}
+.mb-16 {
+    margin-bottom: 16px;
+}
+.mb-24 {
+    margin-bottom: 24px;
+}
+.ml-12 {
+    margin-left: 12px;
+}
+.ml-16 {
+    margin-left: 16px;
+}
+
+.pt-12 {
+    padding-top: 3px;
+}
+.prl-12 {
+    padding: 0 12px;
+}
+
+
+/* Text */
+.fs-10 {
+    font-size: 10px;
+    line-height: 1;
+}
+.fs-12 {
+    font-size: 12px;
+    line-height: 1.333333;
+}
+.fs-14 {
+    font-size: 14px;
+    line-height: 1.428571;
+}
+.fs-16 {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.fs-24 {
+    font-size: 24px;
+    line-height: 1.166667;
+}
+.fs-72 {
+    font-size: 72px;
+    line-height: .833333;
+}
+
+/* Color */
+.cr-11 {
+    color: #111;
+}
+.cr-75 {
+    color: #757575;
+}
+.cr-7e {
+    color: #7e7e7e;
+}
+.cr-f5 {
+    color: #f5f5f5;
+}
+.cr-ff {
+    color: #fff;
+}
