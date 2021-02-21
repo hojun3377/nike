@@ -12,7 +12,6 @@ body {
 }
 a {
     color: #111;
-    cursor: pointer;
     font-weight: 500;
 }
 
@@ -36,8 +35,8 @@ a {
 .mb-24 {
     margin-bottom: 24px;
 }
-.ml-12 {
-    margin-left: 12px;
+.mr-12 {
+    margin-right: 12px;
 }
 .ml-16 {
     margin-left: 16px;
@@ -52,6 +51,8 @@ a {
 
 
 /* Text */
+
+/* font-size */
 .fs-10 {
     font-size: 10px;
     line-height: 1;
@@ -75,6 +76,11 @@ a {
 .fs-72 {
     font-size: 72px;
     line-height: .833333;
+}
+
+/* font-weight */
+.fw-500 {
+    font-weight: 500;
 }
 
 /* Color */
