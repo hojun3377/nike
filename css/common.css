@@ -1,3 +1,14 @@
+/* Font */
+@font-face {
+    font-family: "Nike TG";
+    src: url(../font/nike-tg.woff2) format("woff2")
+}
+@font-face {
+    font-family: "Nike Futura";
+    src: url(../font/nike-futura.woff2) format("woff2");
+  }
+
+
 /* Selector */
 html {
     font-size: 16px;

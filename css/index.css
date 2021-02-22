@@ -57,6 +57,58 @@
     position: relative;
 }
 
+/* footer */
+.l-footer-box {
+    margin: 0 240px;
+    padding: 40px 40px 0 40px;
+}
+
+/* footer-01 */
+.l-footer-box-01 {
+    margin: 0 -8px 16px -8px;
+}
+.l-footer-nav-box {
+    width: 75%;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.l-footer-nav {
+    width: 25%;
+    padding: 0 8px;
+}
+.l-footer-icon-box {
+    width: 25%;
+    padding: 0 8px;
+}
+.l-footer-icon {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* footer-02 */
+.l-footer-box-02 {
+    margin: 0 -8px;
+    border-top: 1px solid #222;
+}
+.l-footer-left {
+    width: 50%;
+    display: inline-block;
+    padding: 12px 8px 0 8px;
+}
+.l-footer-left-box {
+    display: flex;
+    align-items: flex-end;
+}
+.l-footer-right {
+    width: 50%;
+    display: inline-block;
+    padding-right: 8px;
+}
+.l-footer-sub-menu {
+    text-align: right;
+    /* display: flex; */
+    /* justify-content: flex-end; */
+}
 
 /* Contents */
 
@@ -149,8 +201,86 @@
     border: none;
 }
 
+/* footer */
+#footer {
+    width: 100%;
+    background-color: #111;
+}
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* footer-01 */
+.footer-nav {
+    margin-bottom: 3px;
+}
+.footer-nav>a {
+    color: #7e7e7e;
+    font-size: 12px;
+    line-height: 2;
+    font-weight: 400;
+}
+.l-footer-nav[data-index="0"]
+.footer-nav>a,
+.footer-nav.list-header>a {
+    color: #fff;
+    font-family: "Nike TG","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 2;
+    font-weight: 400;
+}
+.footer-icon-box {
+    margin-left: 16px;
+}
+.footer-icon {
+    fill: #7e7e7e;
+    transition: fill .2s;
+}
+
+/* footer-02 */
+.footer-location {
+    display: flex;
+    align-items: flex-end;
+    font-size: 10px;
+    line-height: 1;
+}
+.footer-location>span {
+    color: #fff;
+    margin: 0 8px;
+}
+.footer-copyright {
+    padding-top: 20px;
+    margin-left: 16px;
+    font-size: 10px;
+    line-height: 1;
+}
+.footer-copyright--color {
+    color: #7e7e7e;
+}
+.footer-sub-menu {
+    display: inline-block;
+    font-size: 10px;
+    line-height: 2.4;
+    margin-left: 12px;
+}
+.footer-sub-menu a {
+    display: block;
+    /* border-top: 2px solid transparent; */
+    padding: 8px;
+    color: #7e7e7e;
+    font-size: 10px;
+    /* line-height: 1; */
+}
+.footer-sub-dropdown-menu {
+    border-top: 2px solid transparent;
+}
+
+
 /* hover */
-.header-icon-box:hover > img {
+
+/* header */
+.header-icon-box:hover>img {
     filter: invert(44%) sepia(2%) saturate(20%) hue-rotate(326deg) brightness(101%) contrast(86%)
 }
 .header-01_help:hover,
@@ -168,4 +298,16 @@
 }
 .menu_item:hover {
     border-bottom: 2px solid #111;
+}
+
+/* footer */
+.footer-nav>a:hover,
+.footer-sub-menu a:hover {
+    color: #fff;
+}
+.footer-icon:hover {
+    fill: #fff;
+}
+.footer-sub-dropdown-menu:hover {
+    border-top: 2px solid #fff;
 }
