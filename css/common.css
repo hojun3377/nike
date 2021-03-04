@@ -28,9 +28,6 @@ a {
 
 
 /* Layout */
-.mt-18 {
-    margin-top: 18px;
-}
 .mrl-4 {
     margin: 0 4px;
 }
@@ -40,8 +37,8 @@ a {
 .mb-8 {
     margin-bottom: 8px;
 }
-.mb-16 {
-    margin-bottom: 16px;
+.mb-18 {
+    margin-bottom: 18px;
 }
 .mb-24 {
     margin-bottom: 24px;
@@ -49,25 +46,19 @@ a {
 .mr-12 {
     margin-right: 12px;
 }
-.ml-16 {
-    margin-left: 16px;
-}
-
-.pt-12 {
-    padding-top: 3px;
-}
-.prl-12 {
-    padding: 0 12px;
-}
 
 
 /* Text */
 
-/* font-size */
-.fs-10 {
-    font-size: 10px;
-    line-height: 1;
+/* font-family */
+.ff-h {
+    font-family: "Nike Futura","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+.ff-r {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* font-size */
 .fs-12 {
     font-size: 12px;
     line-height: 1.333333;
@@ -80,32 +71,34 @@ a {
     font-size: 16px;
     line-height: 1.5;
 }
-.fs-24 {
-    font-size: 24px;
-    line-height: 1.166667;
+.fs-20 {
+    font-size: 20px;
+    line-height: 1.4;
 }
 .fs-72 {
     font-size: 72px;
     line-height: .833333;
 }
 
+/* line-height */
+.lh-12 {
+    line-height: 1.2;
+}
+.lh-15 {
+    line-height: 1.5;
+}
+
 /* font-weight */
+.fw-400 {
+    font-weight: 400;
+}
 .fw-500 {
     font-weight: 500;
 }
 
 /* Color */
-.cr-11 {
-    color: #111;
-}
 .cr-75 {
     color: #757575;
-}
-.cr-7e {
-    color: #7e7e7e;
-}
-.cr-f5 {
-    color: #f5f5f5;
 }
 .cr-ff {
     color: #fff;
