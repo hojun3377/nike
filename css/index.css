@@ -235,7 +235,15 @@
 }
 
 /* banner */
+.banner-box {
+    overflow: hidden;
+}
+.banner {
+    width: calc(100% * 2);
+    animation: slide 14600ms infinite;
+}
 .banner-text-box {
+    width: 100%;
     text-align: center;
     color: #111;
 }
@@ -463,4 +471,23 @@
 }
 .footer-sub-dropdown-menu:hover {
     border-top: 2px solid #fff;
+}
+
+/* keyframes */
+@keyframes slide {
+    0% {
+        margin-left: 0;
+    }
+    41.095890% {
+        margin-left: 0;
+    }
+    50% {
+        margin-left: -100%;
+    }
+    91.095890% {
+        margin-left: -100%;
+    }
+    100% {
+        margin-left: 0;;
+    }
 }
