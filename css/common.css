@@ -6,7 +6,11 @@
 @font-face {
     font-family: "Nike Futura";
     src: url(../font/nike-futura.woff2) format("woff2");
-  }
+}
+@font-face {
+    font-family: "nike-glyphs";
+    src: url(../font/nike-glyphs.woff) format("woff2");
+}
 
 
 /* Selector */
@@ -28,6 +32,13 @@ a {
 
 
 /* Layout */
+
+/* display */
+.dp-fx {
+    display: flex;
+}
+
+/* margin */
 .mrl-4 {
     margin: 0 4px;
 }
@@ -103,7 +114,10 @@ a {
     font-weight: 500;
 }
 
+
 /* Color */
+
+/* element-color */
 .cr-75 {
     color: #757575;
 }

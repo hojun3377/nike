@@ -1,5 +1,5 @@
 /* Layout */
-.header-02, .hero-img-box, .main-content-fx-box, .footer-nav-box {
+.header-02, .hero-img-box, .main-slide-box, .main-content-fx-box, .footer-nav-box {
     display: flex;
 }
 .footer-icon-box {
@@ -22,6 +22,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* .main-menu,  */
+.banner-box, .main-slide-container {
+    overflow: hidden;
 }
 
 /* header */
@@ -233,11 +238,53 @@
     padding: 8px 28px;
     margin: 6px 6px 0 0;
 }
+.main-slide-container {
+    position: relative;
+    max-width: 1792px;
+    margin: 0 auto;
+}
+.main-slide-box {
+    /* z-index: 1; */
+    transition: 300ms;
+}
+.slide-btn-prev::after {
+    content: "\E608";
+    left: 84px;
+}
+.slide-btn-next::after {
+    content: "\E609";
+    right: 84px;
+}
+div[class^=slide-btn] {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    padding: 48px;
+}
+div[class^=slide-btn].slide-btn-prev {
+    left: 0;
+    padding-left: 7vw;
+}
+div[class^=slide-btn].slide-btn-next {
+    right: 0;
+    padding-left: 7vw;
+}
+div[class^=slide-btn]::after {
+    display: block;
+    height: 40px;
+    width: 40px;
+    font-family: 'nike-glyphs';
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 20px;
+    position: absolute;
+    top: calc(50% - 20px);
+}
 
 /* banner */
-.banner-box {
-    overflow: hidden;
-}
 .banner {
     width: calc(100% * 2);
     animation: slide 14600ms infinite;
@@ -279,10 +326,22 @@
     margin: 84px auto 0;
     padding: 0 20px;
 }
-.main-header-box {
+.main-content-03 {
     width: 100%;
+    margin-top: 84px;
+}
+.main-header-box-01, .main-header-box-02 {
     margin-bottom: 24px;
     font-size: 0;
+}
+.main-header-box-01 {
+    width: 100%;
+    padding: 0 8px;
+}
+.main-header-box-02 {
+    max-width: 1808px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .main-content-box.mg {
     margin: 0 -8px;
@@ -308,7 +367,7 @@
     height: 700px;
 }
 .lg-img {
-    /* width: 586px; */
+    width: 586px;
     height: 586px;
 }
 .nse-img {
@@ -329,9 +388,6 @@
     grid-template-rows: auto 1fr;
     grid-template-columns: repeat(4,1fr);
     column-gap: 48px;
-}
-.main-menu {
-    overflow: hidden;
 }
 .main-menu>li {
     margin-bottom: 12px;
@@ -488,6 +544,6 @@
         margin-left: -100%;
     }
     100% {
-        margin-left: 0;;
+        margin-left: 0;
     }
 }
